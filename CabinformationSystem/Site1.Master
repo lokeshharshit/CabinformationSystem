@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="CabinformationSystem.Site1" %>
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 136px;
+        }
+        .auto-style2 {
+            height: 25px;
+        }
+        .auto-style3 {
+            height: 122px;
+        }
+    </style>
+    </head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+
+            
+            <table border="4" style="width:100%;">
+                <tr>
+                    <td align="center" class="auto-style2" colspan="4" style="color: #FF0000; font-family: 'Arial Black'">CAB INFORMATION SYSTEM</td>
+                </tr>
+                <tr>
+                    <td><a href="index.aspx">Home</a></td>
+                    <td class="auto-style1"><a href="Login.aspx">Login</a></td>
+                    <td><a href="Registration.aspx">Cab Registration</a></td>
+                    <td><a href="Contact.aspx">Contact</a></td>
+                   
+
+                </tr>
+                <tr>
+                    <td class="auto-style3" colspan="4">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            <p>
+                                Welcome to Cab Information System</p>
+                            <p>
+                                &nbsp;</p>
+                            <p>
+                                &nbsp;</p>
+                            <p>
+                                &nbsp;</p>
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">COPY RIGHT TO LOKESH</td>
+                </tr>
+            </table>
+
+
+            
+        </div>
+    </form>
+</body>
+</html>
